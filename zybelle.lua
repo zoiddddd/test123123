@@ -1,6 +1,6 @@
 local lib = require(game.ReplicatedStorage.Framework.Library)
 spawn(function()
-    for i=1,1  do
+    for i=1,2300  do
         print("Crashing")
         task.spawn(lib.Network.Invoke, 'request world', 'Fantasy')
         task.spawn(lib.Network.Invoke, 'request world', 'Tech')
